@@ -1,0 +1,43 @@
+ img {
+     width: 30%;
+     margin: calc(10%/8);
+     height: 350px;
+     border-radius: 175px;
+
+ }
+
+
+ #cup {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 30%;
+     border: 2px solid yellow;
+     border-radius: 200px;
+ }
+
+ #cup:hover {
+     border-radius: 10px;
+     transition: all;
+     box-shadow: 0 0.25em 0.25em -0.4em yellow;
+     transform: translateY(-0.25em);
+
+ }
+
+ img:hover {
+     transition: all;
+     box-shadow: 0 0.25em 0.25em -0.4em yellow;
+     transform: translateY(-0.25em);
+
+ }
+
+ h1,
+ h2 {
+     text-align: center;
+
+
+ }
+
+ body {
+     background: url("https://images.unsplash.com/photo-1625401586060-f12be3d7cc57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldCUyMHN0YWRpdW18ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60") no-repeat bottom/cover;
+ }
